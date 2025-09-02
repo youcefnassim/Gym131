@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Génération Fitness Maghnia - Transformez votre corps avec nos coachs professionnels">
+    <title>Génération Fitness Maghnia - Votre salle de sport premium</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="img/profile2.png" alt="Logo Génération Fitness" class="logo-img">
+                    <span class="logo-text">Génération <span class="logo-highlight">Fitness</span></span>
+                </a>
+                
+                <div class="nav-group">
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="cours.html" class="nav-link">Cours</a></li>
+                        <li><a href="tarif.html" class="nav-link">Tarifs</a></li>
+                        <li><a href="coach.html" class="nav-link">Coachs</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    
+                    <div class="header-cta">
+                        <a href="tarif.html" class="btn btn-primary">Rejoignez-nous</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformez votre corps <span>Changez votre vie</span></h1>
+                <p class="hero-subtitle">Rejoignez la meilleure salle de sport de Maghnia avec des équipements premium et des coachs certifiés</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Commencer maintenant</a>
+                    <a href="#classes" class="btn btn-outline">Voir nos cours</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Coachs experts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Cours hebdomadaires</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Membres satisfaits</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Accès illimité</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services Premium</h2>
+                <p class="section-subtitle">Découvrez ce qui nous rend unique</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Équipement High-Tech</h3>
+                    <p>Matériel professionnel de dernière génération pour des résultats optimaux</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Coaching Personnalisé</h3>
+                    <p>Programmes sur mesure adaptés à vos objectifs spécifiques</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Suivi Santé</h3>
+                    <p>Analyse de composition corporelle et suivi régulier</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Nutrition</h3>
+                    <p>Plans alimentaires personnalisés par nos experts</p>
+                </div>
+            </div>
+            <a href="services.html#service-details" class="btn btn-primary">Découvrir nos services</a>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="classes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Cours Populaires</h2>
+                <p class="section-subtitle">Trouvez le cours qui vous convient</p>
+            </div>
+            
+            <div class="classes-grid">
+                <div class="class-card">
+                    <div class="class-image" style="background-image: url('img/profile1.png')"></div>
+                    <div class="class-content">
+                        <h3>CrossFit</h3>
+                        <div class="class-meta">
+                            <span><i class="fas fa-user"></i> Coach Youcef</span>
+                            <span><i class="fas fa-clock"></i> 45 min</span>
+                        </div>
+                        <p>Entraînement intensif combinant force et conditionnement</p>
+                        <a href="cours.html#crossfit-programs" class="btn btn-small">Voir horaires</a>
+                    </div>
+                </div>
+                
+                <div class="class-card">
+                    <div class="class-image" style="background-image: url('img/1000.jpg')"></div>
+                    <div class="class-content">
+                        <h3>Yoga Dynamique</h3>
+                        <div class="class-meta">
+                            <span><i class="fas fa-user"></i> Coach Sarah</span>
+                            <span><i class="fas fa-clock"></i> 60 min</span>
+                        </div>
+                        <p>Améliorez votre flexibilité et votre force intérieure</p>
+                        <a href="cours.html#yoga-programs" class="btn btn-small">Voir horaires</a>
+                    </div>
+                </div>
+                
+                <div class="class-card">
+                    <div class="class-image" style="background-image: url('img/7888.jpg')"></div>
+                    <div class="class-content">
+                        <h3>HIIT</h3>
+                        <div class="class-meta">
+                            <span><i class="fas fa-user"></i> Coach Ali</span>
+                            <span><i class="fas fa-clock"></i> 30 min</span>
+                        </div>
+                        <p>Brûlez un maximum de calories en un minimum de temps</p>
+                        <a href="cours.html#hiit-programs" class="btn btn-small">Voir horaires</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="cours.html" class="btn btn-primary">Voir tout le planning</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Abonnements</h2>
+                <p class="section-subtitle">Choisissez la formule qui vous convient</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Basique</h3>
+                    <div class="price">4,500 DA<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li>Accès à la salle</li>
+                        <li>Cours collectifs</li>
+                        <li>Ouverture 6h-23h</li>
+                        <li>1 évaluation gratuite</li>
+                    </ul>
+                    <a href="tarif.html#basique" class="btn btn-outline">Choisir</a>
+                </div>
+                
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Populaire</div>
+                    <h3>Premium</h3>
+                    <div class="price">7,500 DA<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li>Tous les avantages Basique</li>
+                        <li>Accès 24/7</li>
+                        <li>2 séances coaching/mois</li>
+                        <li>Plan nutritionnel</li>
+                    </ul>
+                    <a href="tarifs.html#premium" class="btn btn-primary">Choisir</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3>VIP</h3>
+                    <div class="price">12,000 DA<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li>Tous les avantages Premium</li>
+                        <li>Coaching illimité</li>
+                        <li>Sauna & Hammam</li>
+                        <li>Programme sur mesure</li>
+                    </ul>
+                    <a href="tarifs.html#vip" class="btn btn-outline">Choisir</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="trainers-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Coachs Experts</h2>
+                <p class="section-subtitle">Rencontrez notre équipe professionnelle</p>
+            </div>
+            
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="img/profile1.png" alt="Coach Youcef">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Karim B.</h3>
+                        <span>Spécialiste CrossFit</span>
+                    </div>
+                </div>
+                
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="img/1000.jpg" alt="Coach Sarah">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah M.</h3>
+                        <span>Expert Yoga & Pilates</span>
+                    </div>
+                </div>
+                
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="img/7888.jpg" alt="Coach Ali">
+                        <div class="trainer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Ali K.</h3>
+                        <span>Spécialiste Musculation</span>
+                    </div>
+                </div>
+            </div>
+            <a href="coach.html" class="btn btn-outline">Voir tous nos coachs</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Témoignages</h2>
+                <p class="section-subtitle">Ce que nos membres disent de nous</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"J'ai perdu 12kg en 3 mois grâce au programme personnalisé. Les coachs sont exceptionnels et très motivants!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/trans.jpg" alt="Client satisfait">
+                        <div class="author-info">
+                            <h4>Mohamed K.</h4>
+                            <span>Membre depuis 2023</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"L'ambiance est incroyable et les équipements sont toujours impeccables. Je recommande à 100%!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="img/72222.jpg" alt="Client satisfait">
+                        <div class="author-info">
+                            <h4>Amel T.</h4>
+                            <span>Membre depuis 2022</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-nav">
+                    <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à transformer votre vie?</h2>
+                <p>Inscrivez-vous aujourd'hui et obtenez 1 semaine d'essai gratuit!</p>
+                <a href="contact.html" class="btn btn-primary">Commencer maintenant</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">Nous sommes là pour répondre à vos questions</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adresse</h3>
+                        <p>Cité Azzouni, Maghnia, Algérie</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Téléphone</h3>
+                        <p>+213 779 143 579</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>contact@generationfitness.dz</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horaires</h3>
+                        <p>Lun-Ven: 6h-23h<br>Sam-Dim: 8h-22h</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Votre téléphone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Votre message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="img/logo-white.png" alt="Logo Génération Fitness">
+                        <span>Génération <span class="logo-highlight">Fitness</span></span>
+                    </div>
+                    <p>La salle de sport premium de Maghnia avec des équipements de qualité professionnelle et des coachs experts.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="cours.html">Cours</a></li>
+                        <li><a href="tarif.html">Tarifs</a></li>
+                        <li><a href="coach.html">Coachs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Nos Cours</h3>
+                    <ul class="footer-links">
+                        <li><a href="cours.html#crossfit">CrossFit</a></li>
+                        <li><a href="cours.html#yoga">Yoga</a></li>
+                        <li><a href="cours.html#hiit">HIIT</a></li>
+                        <li><a href="cours.html#pilates">Pilates</a></li>
+                        <li><a href="cours.html#musculation">Musculation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous pour recevoir nos offres spéciales et conseils fitness</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Génération Fitness Maghnia. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions générales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
