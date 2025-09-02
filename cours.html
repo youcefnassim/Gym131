@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez tous nos programmes de CrossFit et musculation chez Génération Fitness Maghnia - Entraînements personnalisés pour tous niveaux">
+    <title>Nos Cours - Génération Fitness Maghnia</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="img/profile2.png" alt="Logo Génération Fitness" class="logo-img">
+                    <span class="logo-text">Génération <span class="logo-highlight">Fitness</span></span>
+                </a>
+                
+                <div class="nav-group">
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-link">Accueil</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="cours.html" class="nav-link active">Cours</a></li>
+                        <li><a href="tarif.html" class="nav-link">Tarifs</a></li>
+                        <li><a href="coach.html" class="nav-link">Coachs</a></li>
+                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    
+                    <div class="header-cta">
+                        <a href="tarif.html" class="btn btn-primary">Rejoignez-nous</a>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                    <span class="menu-bar"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section courses-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Nos Programmes <span>d'Entraînement</span></h1>
+                <p class="hero-subtitle">Découvrez notre gamme complète de cours de CrossFit et musculation pour tous niveaux</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CrossFit Programs Section -->
+    <section id="crossfit-programs" class="crossfit-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Programmes CrossFit</h2>
+                <p class="section-subtitle">Des WOD variés pour développer force, endurance et conditionnement</p>
+            </div>
+            
+            <div class="program-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="beginner-crossfit">Débutant</button>
+                    <button class="tab-btn" data-tab="intermediate-crossfit">Intermédiaire</button>
+                    <button class="tab-btn" data-tab="advanced-crossfit">Avancé</button>
+                    <button class="tab-btn" data-tab="competition-crossfit">Compétition</button>
+                </div>
+                
+                <!-- Débutant CrossFit -->
+                <div class="tab-content active" id="beginner-crossfit">
+                    <h3>CrossFit Fondamental</h3>
+                    <div class="program-details">
+                        <div class="program-description">
+                            <p>Programme d'initiation pour apprendre les mouvements de base en toute sécurité avec des intensités adaptées.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Apprentissage des 9 mouvements fondamentaux</li>
+                                <li><i class="fas fa-check-circle"></i> WOD adaptés aux débutants</li>
+                                <li><i class="fas fa-check-circle"></i> Focus sur la technique</li>
+                                <li><i class="fas fa-check-circle"></i> 3 séances hebdomadaires</li>
+                            </ul>
+                        </div>
+                        <div class="program-schedule">
+                            <h4>Exemple de semaine type :</h4>
+                            <div class="schedule-grid">
+                                <div class="schedule-day">
+                                    <h5>Lundi</h5>
+                                    <p>Technique: Air Squat, Push Press, Deadlift</p>
+                                    <p>WOD: 3 rounds - 15 air squats, 10 push press (barre vide), 5 deadlifts (barre vide)</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Mercredi</h5>
+                                    <p>Technique: Box Jump, Kettlebell Swing, Wall Ball</p>
+                                    <p>WOD: AMRAP 12min - 10 box jumps, 15 KB swings, 20 wall balls</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Vendredi</h5>
+                                    <p>Technique: Pull-ups (bandes), Push-ups, Sit-ups</p>
+                                    <p>WOD: 5 rounds - 200m course, 5 pull-ups, 10 push-ups, 15 sit-ups</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Essayer une séance</a>
+                </div>
+                
+                <!-- Intermédiaire CrossFit -->
+                <div class="tab-content" id="intermediate-crossfit">
+                    <h3>CrossFit Performance</h3>
+                    <div class="program-details">
+                        <div class="program-description">
+                            <p>Programme pour athlètes ayant maîtrisé les bases et souhaitant progresser en intensité et complexité.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Combinaison de force et conditionnement</li>
+                                <li><i class="fas fa-check-circle"></i> Introduction aux mouvements olympiques</li>
+                                <li><i class="fas fa-check-circle"></i> WOD plus intenses</li>
+                                <li><i class="fas fa-check-circle"></i> 4-5 séances hebdomadaires</li>
+                            </ul>
+                        </div>
+                        <div class="program-schedule">
+                            <h4>Exemple de semaine type :</h4>
+                            <div class="schedule-grid">
+                                <div class="schedule-day">
+                                    <h5>Lundi (Force)</h5>
+                                    <p>Back Squat 5x5</p>
+                                    <p>WOD: 21-15-9 - Deadlifts (70/50kg), Handstand Push-ups</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Mardi (Conditionnement)</h5>
+                                    <p>WOD: "Fran" - 21-15-9 Thrusters (43/30kg), Pull-ups</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Jeudi (Skills)</h5>
+                                    <p>Muscle-up progressions</p>
+                                    <p>WOD: 5 rounds - 10 power cleans (50/35kg), 20 box jumps</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Samedi (Long WOD)</h5>
+                                    <p>WOD: "Murph" - 1 mile run, 100 pull-ups, 200 push-ups, 300 squats, 1 mile run</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Essayer une séance</a>
+                </div>
+                
+                <!-- Ajoutez les autres niveaux CrossFit ici -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Musculation Programs Section -->
+    <section id="musculation-programs" class="musculation-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Programmes de Musculation</h2>
+                <p class="section-subtitle">Méthodes scientifiquement prouvées pour développer force et masse musculaire</p>
+            </div>
+            
+            <div class="program-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="beginner-muscu">Débutant</button>
+                    <button class="tab-btn" data-tab="intermediate-muscu">Intermédiaire</button>
+                    <button class="tab-btn" data-tab="advanced-muscu">Avancé</button>
+                    <button class="tab-btn" data-tab="bodybuilding-muscu">Bodybuilding</button>
+                </div>
+                
+                <!-- Débutant Musculation -->
+                <div class="tab-content active" id="beginner-muscu">
+                    <h3>Fondamentaux de la Force</h3>
+                    <div class="program-details">
+                        <div class="program-description">
+                            <p>Programme d'initiation axé sur l'apprentissage des mouvements de base et le développement de la force fondamentale.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Apprentissage des 5 mouvements de base</li>
+                                <li><i class="fas fa-check-circle"></i> Adaptation progressive aux charges</li>
+                                <li><i class="fas fa-check-circle"></i> Routine full-body 3x/semaine</li>
+                                <li><i class="fas fa-check-circle"></i> Focus sur la technique et la mobilité</li>
+                            </ul>
+                        </div>
+                        <div class="program-schedule">
+                            <h4>Exemple de programme :</h4>
+                            <div class="schedule-grid">
+                                <div class="schedule-day">
+                                    <h5>Séance A</h5>
+                                    <p>Squat 3x5</p>
+                                    <p>Bench Press 3x5</p>
+                                    <p>Barbell Row 3x8</p>
+                                    <p>Plank 3x30sec</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Séance B</h5>
+                                    <p>Deadlift 3x5</p>
+                                    <p>Overhead Press 3x5</p>
+                                    <p>Pull-ups 3xMax</p>
+                                    <p>Hanging Leg Raise 3x10</p>
+                                </div>
+                            </div>
+                            <p class="program-notes">Alterner Séance A et B avec au moins 1 jour de repos entre chaque séance.</p>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Commencer maintenant</a>
+                </div>
+                
+                <!-- Intermédiaire Musculation -->
+                <div class="tab-content" id="intermediate-muscu">
+                    <h3>Hypertrophie Fonctionnelle</h3>
+                    <div class="program-details">
+                        <div class="program-description">
+                            <p>Programme équilibré pour développer masse musculaire et force, avec split training.</p>
+                            <ul class="program-features">
+                                <li><i class="fas fa-check-circle"></i> Split 4 jours (Push/Pull/Legs/Upper)</li>
+                                <li><i class="fas fa-check-circle"></i> Combinaison exercices composés et isolation</li>
+                                <li><i class="fas fa-check-circle"></i> Progressions linéaires</li>
+                                <li><i class="fas fa-check-circle"></i> Intégration de techniques d'intensification</li>
+                            </ul>
+                        </div>
+                        <div class="program-schedule">
+                            <h4>Exemple de programme :</h4>
+                            <div class="schedule-grid muscu-grid">
+                                <div class="schedule-day">
+                                    <h5>Jour 1 (Push)</h5>
+                                    <p>Bench Press 4x6</p>
+                                    <p>Incline DB Press 3x8</p>
+                                    <p>Overhead Press 3x8</p>
+                                    <p>Triceps Dips 3x10</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Jour 2 (Pull)</h5>
+                                    <p>Deadlift 4x5</p>
+                                    <p>Pull-ups 4x8</p>
+                                    <p>Barbell Row 3x8</p>
+                                    <p>Face Pulls 3x12</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Jour 3 (Legs)</h5>
+                                    <p>Squat 4x6</p>
+                                    <p>Romanian DL 3x8</p>
+                                    <p>Bulgarian Split Squat 3x8/leg</p>
+                                    <p>Calf Raises 4x15</p>
+                                </div>
+                                <div class="schedule-day">
+                                    <h5>Jour 4 (Upper)</h5>
+                                    <p>Weighted Pull-ups 3x6</p>
+                                    <p>Incline Bench 3x8</p>
+                                    <p>Military Press 3x8</p>
+                                    <p>Barbell Curl 3x10</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Commencer maintenant</a>
+                </div>
+                
+                <!-- Ajoutez les autres niveaux Musculation ici -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Comparison Section -->
+    <section class="comparison-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Quel Programme Choisir?</h2>
+                <p class="section-subtitle">Comparatif des différentes approches d'entraînement</p>
+            </div>
+            
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Critères</th>
+                            <th>CrossFit</th>
+                            <th>Musculation Classique</th>
+                            <th>Bodybuilding</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Objectif principal</td>
+                            <td>Conditionnement complet</td>
+                            <td>Force et masse musculaire</td>
+                            <td>Hypertrophie musculaire</td>
+                        </tr>
+                        <tr>
+                            <td>Durée des séances</td>
+                            <td>45-60 min (WOD intense)</td>
+                            <td>60-90 min</td>
+                            <td>60-120 min</td>
+                        </tr>
+                        <tr>
+                            <td>Fréquence hebdo.</td>
+                            <td>3-5 fois</td>
+                            <td>3-6 fois</td>
+                            <td>4-6 fois</td>
+                        </tr>
+                        <tr>
+                            <td>Matériel utilisé</td>
+                            <td>Varié (haltères, barres, cordes...)</td>
+                            <td>Haltères, machines</td>
+                            <td>Machines, haltères, cables</td>
+                        </tr>
+                        <tr>
+                            <td>Adapté pour</td>
+                            <td>Ceux qui aiment la variété et les défis</td>
+                            <td>Développement force et masse équilibré</td>
+                            <td>Développement musculaire maximal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Vous ne savez pas par où commencer?</h2>
+                <p>Nos coachs vous orienteront vers le programme le plus adapté à vos objectifs</p>
+                <a href="contact.html" class="btn btn-primary">Prendre rendez-vous</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="img/profile2.png" alt="Logo Génération Fitness">
+                        <span>Génération <span class="logo-highlight">Fitness</span></span>
+                    </div>
+                    <p>La salle de sport premium de Maghnia avec des équipements de qualité professionnelle et des coachs experts.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Nos Programmes</h3>
+                    <ul class="footer-links">
+                        <li><a href="cours.html#beginner-crossfit">CrossFit Débutant</a></li>
+                        <li><a href="cours.html#intermediate-crossfit">CrossFit Intermédiaire</a></li>
+                        <li><a href="cours.html#beginner-muscu">Musculation Fondamentale</a></li>
+                        <li><a href="cours.html#intermediate-muscu">Programme Hypertrophie</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Horaires</h3>
+                    <ul class="footer-links">
+                        <li>Lun-Ven: 6h-23h</li>
+                        <li>Sam-Dim: 8h-22h</li>
+                        <li>Fermé les jours fériés</li>
+                    </ul>
+                    <h3 class="contact-heading">Contact</h3>
+                    <p>Cité Azzouni, Maghnia</p>
+                    <p>+213 779 143 579</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous pour recevoir nos programmes d'entraînement et conseils</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email" required>
+                        <button type="submit" class="btn btn-primary">S'abonner</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Génération Fitness Maghnia. Tous droits réservés.</p>
+                <div class="legal-links">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                    <a href="#">Conditions générales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Script pour la fonctionnalité des onglets
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabId = btn.getAttribute('data-tab');
+                const tabContainer = btn.closest('.program-tabs');
+                
+                // Désactiver tous les boutons et contenus
+                tabContainer.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                tabContainer.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Activer le bouton et contenu sélectionné
+                btn.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
